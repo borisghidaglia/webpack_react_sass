@@ -2,10 +2,10 @@
 #### WARNING ! This repo has to be tested since it's the first time I setup a webpack project. I'll surely refine it if I find some bugs/problems/features while using it.
 
 #### Important links
-[https://github.com/gajus/react-css-modules](https://github.com/gajus/react-css-modules)
-[webpack doc](https://webpack.js.org/concepts/)
-[Sass doc](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
-[React doc](https://reactjs.org/docs/hello-world.html)
+[https://github.com/gajus/react-css-modules](https://github.com/gajus/react-css-modules) <br />
+[webpack doc](https://webpack.js.org/concepts/) <br />
+[Sass doc](http://sass-lang.com/documentation/file.SASS_REFERENCE.html) <br />
+[React doc](https://reactjs.org/docs/hello-world.html) <br />
 # Simple webpack - React - Sass Template
 
 Since it is quite painful to setup a fine dev/prod webpack tool, here is a template that could save you some time.
@@ -55,11 +55,11 @@ class App extends Component {
 export default CSSModules(App, styles, {allowMultiple: true});
 ```
 #### What you should notice
-Most of the code looks like pure React. However, in order to be able to use **react-css-modules**, don't forget to add these lines :
-`import CSSModules from "react-css-modules";`
-and
-`export default CSSModules(App, styles, {allowMultiple: true});`
-then, just add your css or scss files
+Most of the code looks like pure React. However, in order to be able to use **react-css-modules**, don't forget to add these lines : <br />
+`import CSSModules from "react-css-modules";` <br />
+and <br />
+`export default CSSModules(App, styles, {allowMultiple: true});` <br />
+then, just add your css or scss files <br />
 `import styles from './App.scss'`
 
 #### Advantages of react-css-modules
