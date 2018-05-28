@@ -1,0 +1,10 @@
+@import '../style.scss';
+
+.container{
+    background-color: #DDD;
+    padding: $padding;
+
+    .color{
+        color: $primary-color;
+    }
+}

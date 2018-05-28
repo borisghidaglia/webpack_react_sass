@@ -1,0 +1,22 @@
+@import 'style.scss';
+
+.container{
+    background-color: #EEE;
+    height: 100vh;
+
+    .narrow{
+        max-width: 1000px;
+        margin: auto;
+
+        .header{
+            background-image: url('./img/react.png');
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+        }
+
+        .color{
+            color: $primary-color;
+        }
+    }
+}

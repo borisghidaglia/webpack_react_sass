@@ -1,0 +1,25 @@
+$primary-color: grey;
+$padding: 15px;
+
+:global{
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title{
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: $padding;
+    }
+
+    .subtitle{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}

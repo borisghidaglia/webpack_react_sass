@@ -1,0 +1,37 @@
+{
+  "name": "wabpack_react_sass",
+  "version": "1.0.0",
+  "description": "Simple webpack React and Sass compiler template",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "author": "borisghidaglia",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.6",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-css-modules": "^4.7.3",
+    "react-dom": "^16.4.0"
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../style.scss';
+
+.container{
+    background-color: #CCC;
+    display: inline-block;
+    padding: $padding;
+    margin: 5px;
+
+    .color{
+        color: $primary-color;
+    }
+
+    .image-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
