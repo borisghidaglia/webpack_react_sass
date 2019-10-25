@@ -32,6 +32,6 @@
   "dependencies": {
     "react": "^16.4.0",
     "react-css-modules": "^4.7.3",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.2"
   }
 }
